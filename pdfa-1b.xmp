@@ -33,6 +33,7 @@
          <dc:creator><rdf:Seq><rdf:li>\xmpAuthor</rdf:li></rdf:Seq></dc:creator>
 \@ifundefined{xmpKeywords}{}{<dc:subject><rdf:Bag><rdf:li>\xmpKeywords</rdf:li></rdf:Bag></dc:subject>}
          <dc:description>\xmpSubject</dc:description>
+         <dcterms:creator rdf:resource="\xmpAuthorURI" />
          <prism:aggregationType>journal</prism:aggregationType>
  	 <prism:copyright>\xmpOrg</prism:copyright>
          <dc:publisher>\xmpOrg</dc:publisher>
