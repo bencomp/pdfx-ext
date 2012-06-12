@@ -6,7 +6,7 @@
 ##
 ##
 
-file=pdfx
+file=pdfx-ext
 
 
 all: pdf out index changes
