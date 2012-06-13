@@ -1,19 +1,19 @@
-Readme for pdfx package (pdfx.sty)
+Readme for pdfx-ext package (pdfx-ext.sty)
 
-pdfx.sty is a LaTeX package which helps to create PDF/X-1a and
+pdfx-ext.sty is a LaTeX package which helps to create PDF/X-1a and
 PFD/A-1b compliant pdf documents with pdfTeX.
 
 Installation:
 
-Create a directory $TEXMF/tex/latex/pdfx and copy pdfx.sty, *.xmp,
+Create a directory $TEXMF/tex/latex/pdfx and copy pdfx-ext.sty, *.xmp,
 glyphtounicode-cmr.tex to this directory.  Update the file database 
 of your TeX system.
 
 Documentation:
 
-Composite documentation and code is available in src/pdfx.dtx. Run
-TeX/LaTeX on pdfx.ins to extract pdfx.sty from pdfx.dtx.  If you
-[pdf]LaTeX pdfx.dtx, you will get pdfx.pdf which is the human readable
+Composite documentation and code is available in src/pdfx-ext.dtx. Run
+TeX/LaTeX on pdfx-ext.ins to extract pdfx-ext.sty from pdfx-ext.dtx.  If you
+[pdf]LaTeX pdfx-ext.dtx, you will get pdfx.pdf which is the human readable
 documentation.
 
 A Makefile is provided in the src directory. Following steps will
@@ -36,3 +36,7 @@ Authors:
 
 CV Radhakrishnan <cvr@river-valley.org> and 
 Han The Thanh <thanh@river-valley.org>
+
+Updating contributor:
+
+Ben Companjen <ben@companjen.name>
