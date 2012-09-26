@@ -1,9 +1,10 @@
 % \iffalse meta-comment 
 %
 % Copyright 2008 CV Radhakrishnan and Han The Thanh
+% Changes copyright 2012 Ben Companjen
 %
-% This file is part of the 'pdfx' package.
-% ----------------------------------------
+% This file is part of the 'pdfx-ext' package.
+% --------------------------------------------
 %
 % It may be distributed and/or modified under the conditions of the
 % LaTeX Project Public License, either version 1.2 of this license or
@@ -12,8 +13,8 @@
 % or later is part of all distributions of LaTeX version 1999/12/01 or
 % later.
 %
-% The list of all files belonging to the LaTeX package, 'pdfx.sty' is
-% given in the file `manifest.txt'.
+% The list of all files belonging to the LaTeX package, 'pdfx-ext.sty'
+% is given in the file `manifest.txt'.
 %
 % \fi
 %
@@ -31,10 +32,10 @@ pdfa-1b.xmp
 pdfx-1a.xmp
  xmp template for pdf/x-1a documents
 
-pdfx.sty
+pdfx-ext.sty
  the main package
 
-pdfx.pdf
+pdfx-ext.pdf
  documentation in pdf format
 
 small2e.pdf
@@ -51,10 +52,10 @@ Directory: src
 Makefile
  make file for compiling documentation
 
-pdfx.dtx
+pdfx-ext.dtx
  main package with driver
 
-pdfx.ins
+pdfx-ext.ins
  main installer batch file
 
 rvdtx.sty
