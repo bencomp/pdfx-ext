@@ -285,50 +285,50 @@
 % Several macros were defined to capture data for the \xmp metadata to
 % be inserted into the PDF during generation.
 %    \begin{macrocode}
-\def\hash{\expandafter\@gobble\string\#}
-\def\amp{\expandafter\@gobble\string\&}
-\def\xmpAmp{\amp\hash x0026;}
-\def\sep{</rdf:li><rdf:li>}
-\def\TextCopyright{\amp\hash x00A9;}
-\def\Title#1{\gdef\xmpTitle{#1}}
+\newcommand{\hash}{\expandafter\@gobble\string\#}
+\newcommand{\amp}{\expandafter\@gobble\string\&}
+\newcommand{\xmpAmp}{\amp\hash x0026;}
+\newcommand{\sep}{</rdf:li><rdf:li>}
+\newcommand{\TextCopyright}{\amp\hash x00A9;}
+\newcommand{\Title}[1]{\gdef\xmpTitle{#1}}
  \let\xmpTitle\@empty
-\def\Author#1{\gdef\xmpAuthor{#1}}
+\newcommand{\Author}[1]{\gdef\xmpAuthor{#1}}
  \let\xmpAuthor\@empty
-\def\AuthorURI#1{\gdef\xmpAuthorURI{#1}}
+\newcommand{\AuthorURI}[1]{\gdef\xmpAuthorURI{#1}}
  \let\xmpAuthorURI\@empty
-\def\Subject#1{\gdef\xmpSubject{#1}}
+\newcommand{\Subject}[1]{\gdef\xmpSubject{#1}}
  \let\xmpSubject\@empty
-\def\Keywords#1{\gdef\xmpKeywords{#1}}
+\newcommand{\Keywords}[1]{\gdef\xmpKeywords{#1}}
  \let\xmpKeywords\@empty
-\def\Creator#1{\gdef\xmpCreator{#1}}
- \def\xmpCreator{\@pdfcreator}
-\def\Producer#1{\gdef\xmpProducer{#1}}
- \def\xmpProducer{pdfTeX}
-\def\Volume#1{\gdef\xmpVolume{#1}}
+\newcommand{\Creator}[1]{\gdef\xmpCreator{#1}}
+ \newcommand{\xmpCreator}{\@pdfcreator}
+\newcommand{\Producer}[1]{\gdef\xmpProducer{#1}}
+ \newcommand{\xmpProducer}{pdfTeX}
+\newcommand{\Volume}[1]{\gdef\xmpVolume{#1}}
  \let\xmpVolume\@empty
-\def\Issue#1{\gdef\xmpIssue{#1}}
+\newcommand{\Issue}[1]{\gdef\xmpIssue{#1}}
  \let\xmpIssue\@empty
-\def\CoverDisplayDate#1{\gdef\xmpCoverDisplayDate{#1}}
+\newcommand{\CoverDisplayDate}[1]{\gdef\xmpCoverDisplayDate{#1}}
  \let\xmpCoverDisplayDate\@empty
-\def\CoverDate#1{\gdef\xmpCoverDate{#1}}
+\newcommand{\CoverDate}[1]{\gdef\xmpCoverDate{#1}}
  \let\xmpCoverDate\@empty
-\def\Copyright#1{\gdef\xmpCopyright{#1}}
+\newcommand{\Copyright}[1]{\gdef\xmpCopyright{#1}}
  \let\xmpCopyright\@empty
-\def\Doi#1{\gdef\xmpDoi{#1}}
+\newcommand{\Doi}[1]{\gdef\xmpDoi{#1}}
  \let\xmpDoi\@empty
-\def\Lastpage#1{\gdef\xmpLastpage{#1}}
+\newcommand{\Lastpage}[1]{\gdef\xmpLastpage{#1}}
  \let\xmpLastpage\@empty
-\def\Firstpage#1{\gdef\xmpFirstpage{#1}}
+\newcommand{\Firstpage}[1]{\gdef\xmpFirstpage{#1}}
  \let\xmpFirstpage\@empty
-\def\Journaltitle#1{\gdef\xmpJournaltitle{#1}}
+\newcommand{\Journaltitle}[1]{\gdef\xmpJournaltitle{#1}}
  \let\xmpJournaltitle\@empty
-\def\Journalnumber#1{\gdef\xmpJournalnumber{#1}}
+\newcommand{\Journalnumber}[1]{\gdef\xmpJournalnumber{#1}}
  \let\xmpJournalnumber\@empty
-\def\Org#1{\gdef\xmpOrg{#1}}
+\newcommand{\Org}[1]{\gdef\xmpOrg{#1}}
  \let\xmpOrg\@empty
-\def\CreatorTool#1{\gdef\xmpCreatorTool{#1}}
- \def\xmpCreatorTool{\xmpProducer}
-\def\AuthoritativeDomain#1{\gdef\xmpAuthoritativeDomain{#1}}
+\newcommand{\CreatorTool}[1]{\gdef\xmpCreatorTool{#1}}
+ \newcommand{\xmpCreatorTool}{\xmpProducer}
+\newcommand{\AuthoritativeDomain}[1]{\gdef\xmpAuthoritativeDomain{#1}}
  \let\xmpAuthoritativeDomain\@empty
 %    \end{macrocode}
 %
