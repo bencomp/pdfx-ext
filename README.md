@@ -10,3 +10,8 @@ The original package was distributed under the LaTeX Project Public License; thi
 Basic install instructions:
 - put *.xmp, pdfx-ext.sty and glyphtounicode-cmr-tex in a directory pdfx-ext in $TEXMF/tex/latex
 - update the TeX package catalog
+
+Usage instructions:
+- create a <project>.xmpdata file containing the metadata
+- copy the .icm file in your project directory
+- run pdfLaTeX as usual.
